@@ -1,5 +1,6 @@
-# Medium Articles Explanations
+# Builder Pattern
 
 
-Here in branch you will some articles explained on my medium account, all the code is open source and you use it for everything you want. All the content file is only used as complement of ready testing environment.
+You can find more details about this project on my <medium-link> article. Feel free to leave a comment with any suggestions!
+
 
