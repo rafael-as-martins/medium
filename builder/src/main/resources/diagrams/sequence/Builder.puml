@@ -1,0 +1,50 @@
+
+@startuml
+
+
+title BuildPizzaTest Unit Test
+
+Controller -> Pizza : builder()
+Controller <-- Pizza: PizzaBuilder
+
+
+Controller -> PizzaBuilder: name("Avocato")
+Controller <-- PizzaBuilder: PizzaBuilder
+
+Controller -> PizzaBuilder: creationDate(2020/12/12)
+Controller <- PizzaBuilder: PizzaBuilder
+
+Controller -> PizzaBuilder: Size(10)
+Controller <-- PizzaBuilder: PizzaBuilder
+
+Controller -> PizzaBuilder: withItems()
+
+loop N Times
+    PizzaBuilder -> PizzaItemsBuilder: new PizzaItemsBuilder
+    Controller <-- PizzaItemsBuilder: PizzaItemsBuilder
+
+    Controller -> PizzaItemsBuilder: addItem()
+    PizzaItemsBuilder -> Item : new ItemBuilder
+    Controller <-- ItemBuilder : ItemBuilder
+
+    Controller -> ItemBuilder : name("Cheese")
+    Controller <-- ItemBuilder : ItemBuilder
+
+    Controller -> ItemBuilder : quantity(10)
+    Controller <-- ItemBuilder : ItemBuilder
+
+    Controller -> ItemBuilder : add()
+    ItemBuilder -> ItemBuilder : build()
+    ItemBuilder -> PizzaItemsBuilder: addItem(item)
+    Controller <-- ItemBuilder :  PizzaItemsBuilder
+end
+
+Controller -> PizzaItemsBuilder: buildItems()
+Controller <-- PizzaItemsBuilder: PizzaBuilder
+
+Controller -> PizzaBuilder: build()
+PizzaBuilder -> Pizza: new Pizza
+Pizza -> PizzaBuilder: Pizza
+Controller <-- Pizza: Pizza
+
+@enduml
