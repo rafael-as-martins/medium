@@ -20,7 +20,7 @@ public class Pizza {
     public Pizza() {
     }
 
-    public static PizzaBuilder builder() {
+    public static PizzaBuilder Builder() {
         return new PizzaBuilder();
     }
 

@@ -3,7 +3,6 @@ import com.medium.core.Pizza;
 import com.medium.core.size.Size;
 import org.junit.jupiter.api.Test;
 
-import java.beans.Transient;
 import java.time.LocalDate;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -14,7 +13,7 @@ public class BuildPizzaTest {
     public void buildPizzaWith2ItemsTest() {
 
         //Given
-        PizzaBuilder builder = Pizza.builder();
+        PizzaBuilder builder = Pizza.Builder();
 
         //When
         Pizza pizza = builder

@@ -4,7 +4,7 @@
 
 title BuildPizzaTest Unit Test
 
-Controller -> Pizza : builder()
+Controller -> Pizza : Builder()
 Controller <-- Pizza: PizzaBuilder
 
 
