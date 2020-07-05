@@ -1,4 +1,4 @@
-package com.medium.core.size;
+package com.medium.builder.core.size;
 
 public enum Size {
 

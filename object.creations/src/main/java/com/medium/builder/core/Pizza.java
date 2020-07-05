@@ -1,8 +1,7 @@
-package com.medium.core;
+package com.medium.builder.core;
 
-import com.medium.builder.Builder;
 import com.medium.builder.PizzaBuilder;
-import com.medium.core.size.Size;
+import com.medium.builder.core.size.Size;
 
 import java.time.LocalDate;
 import java.util.Set;

@@ -2,7 +2,7 @@
 @startuml
 
 
-title BuildPizzaTest Unit Test
+title Build Pizza Unit Test
 
 Controller -> Pizza : Builder()
 Controller <-- Pizza: PizzaBuilder

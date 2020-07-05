@@ -1,6 +1,6 @@
 package com.medium.builder;
 
-import com.medium.core.Item;
+import com.medium.builder.core.Item;
 
 import java.util.HashSet;
 import java.util.Set;

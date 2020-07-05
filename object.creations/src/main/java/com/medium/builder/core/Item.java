@@ -1,4 +1,4 @@
-package com.medium.core;
+package com.medium.builder.core;
 
 import com.medium.builder.ItemBuilder;
 import com.medium.builder.PizzaItemsBuilder;

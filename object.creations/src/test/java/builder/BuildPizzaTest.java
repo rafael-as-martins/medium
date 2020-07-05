@@ -1,6 +1,8 @@
+package builder;
+
 import com.medium.builder.PizzaBuilder;
-import com.medium.core.Pizza;
-import com.medium.core.size.Size;
+import com.medium.builder.core.Pizza;
+import com.medium.builder.core.size.Size;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

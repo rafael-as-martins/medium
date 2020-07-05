@@ -1,5 +1,7 @@
+package builder;
+
 import com.medium.builder.ItemBuilder;
-import com.medium.core.Item;
+import com.medium.builder.core.Item;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
