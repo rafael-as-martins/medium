@@ -6,3 +6,23 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/.name
+/compiler.xml
+/encodings.xml
+/jarRepositories.xml
+/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml
+/libraries/Maven__org_assertj_assertj_core_3_11_1.xml
+/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml
+/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml
+/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml
+/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml
+/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml
+/../../.idea/medium.iml
+/../../.idea/misc.xml
+/misc.xml
+/../../.idea/modules.xml
+/modules.xml
+/../object.creations.iml
+/../../.idea/vcs.xml
+/vcs.xml
+/../../.idea/workspace.xml
