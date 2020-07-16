@@ -2,7 +2,9 @@ package com.medium;
 
 public interface Notifier {
 
-    String notifyWorkers();
+    void notifyWorkers();
 
     double getProcessTime();
+
+    double getProcessedTime();
 }

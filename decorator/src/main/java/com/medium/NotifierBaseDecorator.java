@@ -15,11 +15,15 @@ public class NotifierBaseDecorator implements Notifier {
     }
 
     @Override
-    public String notifyWorkers() {
-        //Skype  -> Phone (5) -> Email (3.3) -> 8.3 + 1
-        //Phone -> Email (3.3) -> 5 + 3.3
-        addTime(notifier.getProcessTime());
-        return notifier.notifyWorkers();
+    public void notifyWorkers() {
+
+        // Skype > Phone.notifyWorkers  | addTime (8.3) - processedTime = 8.3 - getProcessedTime = 8.3 + 1 = 9
+        // Phone > Email.notifyWorkers  | addTime (3.3) - processedTime = 3.3 - getProcessedTime = 3.3 + 5 = 8.3
+        // Email
+
+
+        notifier.notifyWorkers();
+        addTime(notifier.getProcessedTime());
     }
 
     @Override
@@ -27,6 +31,7 @@ public class NotifierBaseDecorator implements Notifier {
         return 0.0;
     }
 
+    @Override
     public double getProcessedTime(){
         return processTime + processedTime;
     }

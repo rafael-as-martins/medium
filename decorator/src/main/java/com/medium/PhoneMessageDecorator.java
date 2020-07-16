@@ -14,10 +14,9 @@ public class PhoneMessageDecorator extends NotifierBaseDecorator implements Noti
     }
 
     @Override
-    public String notifyWorkers() {
-        System.out.println(super.notifyWorkers());
+    public void notifyWorkers() {
         System.out.println("Sending PHONE MESSAGE...");
-        return "Sending PHONE MESSAGE...";
+        super.notifyWorkers();
     }
 
 }

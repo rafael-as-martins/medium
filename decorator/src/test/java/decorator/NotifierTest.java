@@ -10,19 +10,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class NotifierTest {
 
-    @Test
-    public void notifyByEmail() {
-
-        //Given
-        Notifier notifier = new EmailNotifier();
-
-        //When
-        String notification = notifier.notifyWorkers();
-
-        //Then
-        assertThat(notification).isEqualTo("Sending EMAIL...");
-
-    }
 
     @Test
     public void emailNotificationProcessedTime() {
@@ -47,7 +34,7 @@ public class NotifierTest {
         //When
         double predictedTime = EmailNotifier.PROCESS_TIME + PhoneMessageDecorator.PROCESS_TIME;
         notifier.notifyWorkers();
-        double processedTime = ((PhoneMessageDecorator) notifier).getProcessedTime();
+        double processedTime = notifier.getProcessedTime();
 
         //Then
         assertThat(processedTime).isEqualTo(predictedTime);
@@ -55,35 +42,19 @@ public class NotifierTest {
 
 
     @Test
-    public void notifyByPhoneMessage() {
-
-        //When
-        Notifier notifier = new PhoneMessageDecorator(new EmailNotifier());
-
-        //Given
-        String notification = notifier.notifyWorkers();
-
-        //Then
-        assertThat(notification).isEqualTo("Sending PHONE MESSAGE...");
-    }
-
-    @Test
     public void notifierExchangeFromDefaultToPhoneAndThenSkype() {
 
+        //Given
         Notifier notifier = new EmailNotifier();
-        double estimatedTime = EmailNotifier.PROCESS_TIME;
-        notifier.notifyWorkers();
-        assertThat(notifier.getProcessTime()).isEqualTo(estimatedTime);
-
         notifier = new PhoneMessageDecorator(notifier);
-        notifier.notifyWorkers();
-        estimatedTime = EmailNotifier.PROCESS_TIME + PhoneMessageDecorator.PROCESS_TIME;
-        assertThat(((PhoneMessageDecorator) notifier).getProcessedTime()).isEqualTo(estimatedTime);
-
         notifier = new SkypeMessageDecorator(notifier);
+
+        //When
         notifier.notifyWorkers();
-        estimatedTime = EmailNotifier.PROCESS_TIME + PhoneMessageDecorator.PROCESS_TIME + SkypeMessageDecorator.PROCESS_TIME;
-        assertThat(((SkypeMessageDecorator) notifier).getProcessedTime()).isEqualTo(estimatedTime);
+        double estimatedTime = EmailNotifier.PROCESS_TIME + PhoneMessageDecorator.PROCESS_TIME + SkypeMessageDecorator.PROCESS_TIME;
+
+        //Then
+        assertThat(notifier.getProcessedTime()).isEqualTo(estimatedTime);
 
     }
 
