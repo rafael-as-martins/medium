@@ -1,0 +1,11 @@
+server:
+  port: 8989
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///Users/rafaelmartins/git/medium/ms-central-configuration/src/main/resources/config/client1
