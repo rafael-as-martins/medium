@@ -1,0 +1,14 @@
+server:
+  port: 8761 # server where the server will be running
+
+eureka:
+  client:
+    register-with-eureka: false # Not registering the server itself
+    fetch-registry: false # Don't cache its registry information locally
+    server:
+      max-threads-for-peer-replication: 0
+      wait-time-in-ms-when-sync-empty: 5 # After 5 MS server starts is available for requests, given time for
+                                         # all others services to get themselves registered - 5 MS only for dev mode
+                                         # in average, each service takes 30 seconds to get registered (3 health requests)
+
+

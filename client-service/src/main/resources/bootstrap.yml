@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client-service # current service name used for eureka registration
+  cloud:
+    config:
+      uri: http://127.0.0.1:8989 # configuration repository location
+
+profiles:
+  active: default # default profile

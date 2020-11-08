@@ -1,0 +1,19 @@
+server:
+  port: 8989 #Port the server will be run-in
+
+spring:
+  profiles:
+    active: native # backend repository that will be used to store the configuration
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///Users/rafaelmartins/git/medium/ms-central-configuration/src/main/resources/config/client-service
+          # backend repository that will be used to store the configuration
+
+
+
+
+
+
+
