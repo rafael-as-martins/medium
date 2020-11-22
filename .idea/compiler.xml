@@ -17,6 +17,7 @@
       <module name="client1" target="11" />
       <module name="configuration" target="11" />
       <module name="eureka" target="11" />
+      <module name="medium" target="1.6" />
       <module name="ms" target="1.6" />
     </bytecodeTargetLevel>
   </component>

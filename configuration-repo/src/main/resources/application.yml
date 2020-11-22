@@ -8,7 +8,7 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///Users/rafaelmartins/git/medium/ms-central-configuration/src/main/resources/config/client-service
+          search-locations: file:///Users/rafael_as_martins/Documents/projects/medium/configuration-repo/src/main/resources/config
           # backend repository that will be used to store the configuration
 
 
