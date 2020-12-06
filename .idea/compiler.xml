@@ -17,8 +17,16 @@
       <module name="client1" target="11" />
       <module name="configuration" target="11" />
       <module name="eureka" target="11" />
-      <module name="medium" target="1.6" />
+      <module name="medium" target="1.8" />
       <module name="ms" target="1.6" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="address" options="-parameters" />
+      <module name="client1" options="-parameters" />
+      <module name="configuration" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+    </option>
   </component>
 </project>
