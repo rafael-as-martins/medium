@@ -19,8 +19,9 @@ public class ClientService {
         return clientRepository.findById(id).orElseThrow(EntityNotFoundException::new);
     }
 
-    public Address findClientAddress(int addressId){
-        Optional<Address> address = addressService.getAddressById(addressId);
+    public Address findClientAddress(int id){
+        Client client = findById(id);
+        Optional<Address> address = addressService.getAddressById(client.getAddress());
         return (address.isPresent())? address.get() : null;
     }
 }

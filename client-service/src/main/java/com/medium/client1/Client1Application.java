@@ -11,7 +11,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class Client1Application {
-
     public static void main(String[] args) {
         SpringApplication.run(Client1Application.class, args);
     }
@@ -21,5 +20,4 @@ public class Client1Application {
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
-
 }
