@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59ed86a4-9076-4213-ae3b-33b80266e255" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/medium/client1/Client1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/medium/client/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/medium/client1/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/medium/client/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/medium/client1/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/medium/client/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/medium/client1/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/medium/client/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/medium/client1/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/medium/client/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/medium/client1/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/medium/client/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/test/java/com/medium/client1/Client1ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/test/java/com/medium/client/ClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/medium/client1/Client1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/medium/client1/DataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/medium/client1/controller/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/medium/client1/model/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/medium/client1/repository/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/medium/client1/service/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/test/java/com/medium/client1/Client1ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="circuit-breaker" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kbhFdIwhPxm7BMRxr1ambRAfOB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/configuration-repo/src/main/resources/config/client-service" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configuration-repo/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/configuration-repo/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configuration-repo/src/main/resources/config/client-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+    <configuration name="AddressApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="address" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.medium.address.AddressApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="address" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.medium.client1.AddressApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.medium.client1.Client1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.medium.configuration.ConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.medium.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59ed86a4-9076-4213-ae3b-33b80266e255" name="Default Changelist" comment="" />
+      <created>1605975100618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605975100618</updated>
+      <workItem from="1605975104959" duration="2230000" />
+      <workItem from="1606052044841" duration="11278000" />
+      <workItem from="1606246850149" duration="45000" />
+      <workItem from="1607250908735" duration="7221000" />
+      <workItem from="1607722320489" duration="128000" />
+      <workItem from="1607722473751" duration="45000" />
+      <workItem from="1607722530117" duration="3341000" />
+      <workItem from="1607869845120" duration="202000" />
+      <workItem from="1607870148221" duration="2301000" />
+      <workItem from="1607961479451" duration="314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
