@@ -1,7 +1,7 @@
-package com.medium.client1.controller;
+package com.medium.client.controller;
 
-import com.medium.client1.model.Client;
-import com.medium.client1.service.ClientService;
+import com.medium.client.model.Client;
+import com.medium.client.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

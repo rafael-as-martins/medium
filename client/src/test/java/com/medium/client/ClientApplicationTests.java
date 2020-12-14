@@ -1,10 +1,10 @@
-package com.medium.client1;
+package com.medium.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Client1ApplicationTests {
+class ClientApplicationTests {
 
     @Test
     void contextLoads() {
