@@ -29,20 +29,7 @@ public class ClientService {
             }
     )
     public Client findById(int id){
-        randomlySleep();
         return clientRepository.findById(id).orElseThrow(EntityNotFoundException::new);
-    }
-
-    private void randomlySleep(){
-        try {
-            int random = ThreadLocalRandom.current().nextInt(4);
-            log.info(format("Random chosen: %d", random));
-            if (random == 3) {
-                Thread.sleep(7000);
-            }
-        }catch (InterruptedException e){
-            log.error(e.getMessage(), e);
-        }
     }
 
     @HystrixCommand(
@@ -54,7 +41,7 @@ public class ClientService {
     public Address findClientAddress(int id){
         Client client = findById(id);
         Optional<Address> address = addressService.getAddressById(client.getAddress());
-        return (address.isPresent())? address.get() : null;
+        return address.orElse(null);
     }
 
     public Address buildMockAddress(int id){
