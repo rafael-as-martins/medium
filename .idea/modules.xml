@@ -6,7 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/client-service/client1.iml" filepath="$PROJECT_DIR$/client-service/client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/configuration-repo/configuration.iml" filepath="$PROJECT_DIR$/configuration-repo/configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-discovery/eureka.iml" filepath="$PROJECT_DIR$/service-discovery/eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/medium.iml" filepath="$PROJECT_DIR$/.idea/medium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms.iml" filepath="$PROJECT_DIR$/ms.iml" />
     </modules>
   </component>
 </project>

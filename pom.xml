@@ -20,6 +20,7 @@
         <module>service-discovery</module>
         <module>client-service</module>
         <module>address-service</module>
+        <module>gateway</module>
     </modules>
     <build>
         <plugins>
