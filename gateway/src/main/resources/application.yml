@@ -23,3 +23,7 @@ spring:
           uri: lb://client-service
           predicates:
           - Path=/client/**
+        - id: address-service
+          uri: lb://address-service
+          predicates:
+          - Path=/address/**

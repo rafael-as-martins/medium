@@ -14,13 +14,14 @@ import static org.springframework.http.HttpMethod.GET;
 @Service
 @RequiredArgsConstructor
 public class AddressService {
-    private static final String ADDRESS_CONTEXT = "http://address-service";
-    private static final String ADDRESS_GET_BY_ID = ADDRESS_CONTEXT + "/address/{id}";
+    private static final String GATEWAY_ENDPOINT = "http://gateway-service:8282";
+    private static final String ADDRESS_CONTEXT = GATEWAY_ENDPOINT + "/address";
+    private static final String ADDRESS_GET_BY_ID = ADDRESS_CONTEXT + "/{id}";
 
     private final RestTemplate restTemplate;
 
     public Optional<Address> getAddressById(int id){
         ResponseEntity<Address> address = restTemplate.exchange(ADDRESS_GET_BY_ID, GET, null, Address.class, id);
-        return (isNull(address))? Optional.empty() : Optional.of(address.getBody());
+        return Optional.ofNullable(address.getBody());
     }
 }
