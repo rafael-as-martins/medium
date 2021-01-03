@@ -1,6 +1,6 @@
-package com.medium.client1.repository;
+package com.medium.client.repository;
 
-import com.medium.client1.model.Client;
+import com.medium.client.model.Client;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

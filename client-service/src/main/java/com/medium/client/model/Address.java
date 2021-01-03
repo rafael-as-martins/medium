@@ -1,4 +1,4 @@
-package com.medium.client1.model;
+package com.medium.client.model;
 
 import lombok.*;
 

@@ -1,11 +1,11 @@
-package com.medium.client1.controller;
+package com.medium.client.controller;
 
-import com.medium.client1.model.Address;
-import com.medium.client1.model.Client;
-import com.medium.client1.service.ClientService;
+import com.medium.client.model.Address;
+import com.medium.client.model.Client;
+import com.medium.client.service.ClientService;
+import com.medium.client.utils.UserContextHolder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -20,17 +20,16 @@ import javax.servlet.http.HttpServletRequest;
 public class ClientController {
     private final ClientService clientService;
 
-
-
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Client getClient(@PathVariable("id") final Integer id, HttpServletRequest request){
 
-        log.info("CORRELATION ID:::: " + request.getHeader("correlation-id"));
+        log.info("CORRELATION ID:::: " + UserContextHolder.getContext().getCorrelationId());
         return clientService.findById(id);
     }
 
     @RequestMapping(value = "/address/{id}", method = RequestMethod.GET)
     public Address getClientAddress(@PathVariable("id") final Integer id){
+        log.info("CORRELATION ID:::: " + UserContextHolder.getContext().getCorrelationId());
         return clientService.findClientAddress(id);
     }
 }

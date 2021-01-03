@@ -1,6 +1,6 @@
-package com.medium.client1.service;
+package com.medium.client.service;
 
-import com.medium.client1.model.Address;
+import com.medium.client.model.Address;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,6 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Optional;
 
-import static java.util.Objects.isNull;
 import static org.springframework.http.HttpMethod.GET;
 
 @Service

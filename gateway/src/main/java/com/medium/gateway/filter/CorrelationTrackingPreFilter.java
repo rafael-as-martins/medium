@@ -16,7 +16,7 @@ import static java.lang.String.format;
 
 @Slf4j
 @Component
-public class TrackingFilter implements GlobalFilter, Ordered {
+public class CorrelationTrackingPreFilter implements GlobalFilter, Ordered {
 
     public static final String CORRELATION_ID = "correlation-id";
 

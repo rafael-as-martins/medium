@@ -1,20 +1,16 @@
-package com.medium.client1.service;
+package com.medium.client.service;
 
-import com.medium.client1.model.Address;
-import com.medium.client1.model.Client;
-import com.medium.client1.repository.ClientRepository;
+import com.medium.client.model.Address;
+import com.medium.client.model.Client;
+import com.medium.client.repository.ClientRepository;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.Optional;
-import java.util.concurrent.ThreadLocalRandom;
-
-import static java.lang.String.format;
 
 @Slf4j
 @Service
