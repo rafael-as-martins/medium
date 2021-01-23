@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 
-
 @Repository
 @RequiredArgsConstructor
 public class AddressRedisRepositoryImpl implements AddressRedisRepository{
@@ -17,7 +16,6 @@ public class AddressRedisRepositoryImpl implements AddressRedisRepository{
 
     private final RedisTemplate<String, Address> redisTemplate;
 
-    //TODO: Check if diamonds have any impact
     private HashOperations<String, Integer, Address> hashOperations;
 
     @PostConstruct

@@ -7,7 +7,6 @@ import org.springframework.data.redis.core.RedisHash;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@RedisHash("address")
 public class Address {
     @NonNull
     private Integer id;
