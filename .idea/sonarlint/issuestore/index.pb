@@ -3,8 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 F
 client-service/pom.xml,c/d/cdf4e151245b95b8727379f88fb7fbad223ba465
-X
-(gateway/src/main/resources/bootstrap.yml,0/7/07d8c8c220cb2dff8d10de3e17940234c4bfc0f1
 p
 @gateway/src/main/java/com/medium/gateway/GatewayApplication.java,6/1/61eb9bcc57ec0b951a6ee343626c3c3b9520b277
 ?
@@ -37,3 +35,11 @@ Oclient-service/src/main/java/com/medium/client/controller/ClientController.java
 Kclient-service/src/main/java/com/medium/client/utils/UserContextHolder.java,5/0/50282658fce7cfead13b72ad75586933e6568e9c
 y
 Iclient-service/src/main/java/com/medium/client/service/ClientService.java,1/0/10e60d01971135cfbb495ef31138a38bf47450e1
+G
+address-service/pom.xml,c/8/c80a69136f64bc522ee5436e72263f2f40c77d77
+s
+Caddress-service/src/main/java/com/medium/address/model/Address.java,9/8/980f6effc3d0d747e2870d6bd79c9bc735aa8e06
+‚
+Raddress-service/src/main/java/com/medium/address/controller/AddressController.java,a/7/a7a6f5eb572479ff4df3c426fc10439d3ddd4389
+x
+Haddress-service/src/main/java/com/medium/address/AddressApplication.java,0/6/0660156985f31c9fd08cb345162e9e110a3c37ab

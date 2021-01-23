@@ -12,17 +12,17 @@ eureka:
 
 spring:
   application:
-    name: gateway-service
+    name: gateway-service # gateway service name to be called by it clients
   cloud:
     gateway:
       discovery:
         locator:
-          enabled: true
+          enabled: true # use netflix eureka discovery service
       routes:
         - id: client-service
-          uri: lb://client-service
+          uri: lb://client-service # netflix eureka correspondent service
           predicates:
-          - Path=/client/**
+          - Path=/client/** # how we will map the url to the target service
         - id: address-service
           uri: lb://address-service
           predicates:
