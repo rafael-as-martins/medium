@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    consumer:
+      group-id: topic-loggers
+      auto-offset-reset: earliest
+    bootstrap-servers: localhost:9092
+
+kafka:
+  topic: custom-topic
+  messages: 10

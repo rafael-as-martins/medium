@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+server:
+  port: 8002
+
+kafka:
+  topic: custom-topic
+  messages: 10
